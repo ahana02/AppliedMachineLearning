@@ -12,18 +12,18 @@ https://archive.ics.uci.edu/ml/datasets/sms+spam+collection
 ---
 
 ## Folder Structure
-
+```
 sms_spam_classification/
 ├── data/
-│ └── SMSSpamCollection
+│   └── SMSSpamCollection
 ├── prepare.ipynb # Preprocessing and data splits
 ├── train.ipynb # Training, tuning, evaluation
 ├── train.csv
 ├── validation.csv
 ├── test.csv
 ├── requirements.txt
-└── README.md
-
+└── readme.md
+```
 
 ---
 
@@ -41,6 +41,7 @@ sms_spam_classification/
 ## Result
 
  Evaluation focuses on precision, recall, and F1 score due to class imbalance. Naive Bayes achieved best performance on test set with F1 score 0.938.
+
 
 
 
